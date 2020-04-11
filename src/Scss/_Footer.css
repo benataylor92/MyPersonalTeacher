@@ -1,0 +1,9 @@
+.Footer-Bar {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: solid 2px black;
+    bottom: 0px;
+    position: fixed;
+}
