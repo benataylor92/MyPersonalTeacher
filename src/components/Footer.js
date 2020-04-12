@@ -1,12 +1,12 @@
 import React from 'react'
 import '../Scss/_Footer.css'
 
-function Footer() {
-    return (
+export default class Footer extends React.Component{
+    render() {
+      return (
     <div>
         <footer className="Footer-Bar">Sticky footer</footer>
     </div>
-    )
-} 
-
-export default Footer
+      )
+    }
+  }

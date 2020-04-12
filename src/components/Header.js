@@ -1,14 +1,14 @@
-import React from 'react'
+import React, { Component } from 'react'
 import '../Scss/_Header.css'
 
-function Header() {
-  return (
+export default class Header extends React.Component{
+  render() {
+    return (
     <div className="Header-Bar">
-      <button className="home-logo">Vintage 4 You</button>
-      <button className="Men-Button" type="button">Men</button>
-      <button className="Women-Button">Women</button>
-    </div>
-  )
+    <button className="home-logo">Vintage 4 You</button>
+    <button className="Men-Button">Men</button>
+    <button className="Women-Button">Women</button>
+  </div>
+    )
+  }
 }
-
-export default Header
