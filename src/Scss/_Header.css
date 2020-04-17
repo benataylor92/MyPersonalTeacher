@@ -4,49 +4,69 @@
   display: flex;
   padding: 1em;
   margin-bottom: 2em;
-  border: solid 2px black;
 }
 
-.home-logo {
-  justify-content: left;
-  border: solid black 2px;
-  font-size: 24px;
-  background-color: black;
-  color: white;
+.Website-Logo {
+  height: 150px;
+  width: 150px; 
+  margin-right: 0px;
+}
+
+.Order-Button {
   text-align: center;
-  border-radius: 12px;
+  margin-left: 30%;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  margin-bottom: auto
 }
 
-.home-logo:focus,
-.home-logo:hover {
-  background-color: grey;;
+.Order-Button:hover {
+  text-decoration: underline;
 }
 
-.Men-Button {
-  justify-content: left;
-  border: solid black 2px;
-  font-size: 24px;
-  background-color: black;
-  color: white;
+.Boxes-Button {
   text-align: center;
-  border-radius: 12px;
+  margin-left: 30px;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  margin-bottom: auto
 }
-  .Men-Button:focus,
-  .Men-Button:hover {
-    background-color: grey;;
-  }
 
-.Women-Button {
-  justify-content: left;
-  border: solid black 2px;
-  font-size: 24px;
-  background-color: black;
-  color: white;
+.Boxes-Button:hover {
+  text-decoration: underline;
+}
+
+.About-Button {
   text-align: center;
-  border-radius: 12px;
+  margin-left: 30px;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  margin-bottom: auto
 }
 
-.Women-Button:focus,
-.Women-Button:hover {
-  background-color: grey;;
+.About-Button:hover {
+  text-decoration: underline;
+}
+
+.Contact-Button {
+  text-align: center;
+  margin-left: 30px;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  margin-bottom: auto
+}
+
+.Contact-Button:hover {
+  text-decoration: underline;
+}
+
+.Sign-up {
+  position: absolute;
+  right: 25px;
+  border: solid black 2px;
+  font-size: 25px;
 }

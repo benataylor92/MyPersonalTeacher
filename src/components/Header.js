@@ -1,14 +1,18 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import '../Scss/_Header.css'
+import Logo from './MSB.png';
 
 export default class Header extends React.Component{
   render() {
     return (
     <div className="Header-Bar">
-    <Link to="/" className="home-logo">Vintage 4 You</Link>
-    <Link to="/menPage" className="Men-Button">Men</Link>
-    <Link to="/womenPage" className="Women-Button">Women</Link>
+    <img src={Logo} alt="Website-Logo" className="Website-Logo" />
+    <Link to="/orderPage" className="Order-Button">Order</Link>
+    <Link to="/boxesPage" className="Boxes-Button">Our Boxes</Link>
+    <Link to="/aboutPage" className="About-Button">About</Link>
+    <Link to="/contactPage" className="Contact-Button">Contact</Link>
+    <Link to="/signup" className="Sign-up">Sign Up</Link>
   </div>
     )
   }
