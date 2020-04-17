@@ -3,17 +3,21 @@ import { Switch, Route } from 'react-router-dom'
 
 import Header from '../components/Header';
 
-import MenPage from '../Pages/MenPage'
+import OrderPage from '../Pages/OrderPage'
 import HomePage from '../Pages/HomePage'
-import WomenPage from '../Pages/WomenPage'
+import BoxesPage from '../Pages/BoxesPage'
+import AboutPage from '../Pages/AboutPage'
+import ContactPage from '../Pages/ContactPage'
 import SignUp from '../Pages/SignUp'
 
 export default function Routes() {
     return (
         <Switch>
             <Route path="/" exact component={HomePage} />
-            <Route path="/menPage" exact component={MenPage} />
-            <Route path="/womenPage" exact component={WomenPage} />
+            <Route path="/orderPage" exact component={OrderPage} />
+            <Route path="/boxesPage" exact component={BoxesPage} />
+            <Route path="/aboutPage" exact component={AboutPage} />
+            <Route path="/contactPage" exact component={ContactPage} />
             <Route path="/signUp" exact component={SignUp} />
 
             <Route component={HomePage} />
