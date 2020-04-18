@@ -5,9 +5,14 @@ import Logo from './MSB.png';
 
 export default class Header extends React.Component{
   render() {
+
+    const logoImageClick = () => {
+      window.location.href="/homePage";
+    }
+
     return (
     <div className="Header-Bar">
-    <img src={Logo} alt="Website-Logo" className="Website-Logo" />
+    <img src={Logo} alt="Website-Logo" className="Website-Logo" onClick={() => logoImageClick()} />
     <Link to="/orderPage" className="Order-Button">Order</Link>
     <Link to="/boxesPage" className="Boxes-Button">Our Boxes</Link>
     <Link to="/aboutPage" className="About-Button">About</Link>
