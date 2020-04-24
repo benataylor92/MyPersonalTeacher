@@ -8,9 +8,9 @@ constructor(props) {
 
     this.state = {
         user: {
-            firstName: '',
-            lastName: '',
-            emailadress: '',
+            firstname: '',
+            lastname: '',
+            emailaddress: '',
             confirmemailaddress: ''
         },
         // submitted: false;
@@ -42,15 +42,15 @@ constructor(props) {
                     <input type="text" className="Form-control" name="firstname" value={user.firstname} onChange={this.handleChange}/>
                 <div>
                     <label htmlfor="Last-name">Last Name</label>
-                    <input type="text" className="Form-control" name="lastname" value={user.lastName} />
+                    <input type="text" className="Form-control" name="lastname" value={user.lastname} onChange={this.handleChange}/>
                 </div>
                 <div>
                     <label htmlfor="Email-adress">Email Adress</label>
-                    <input type="text" className="Form-control" name="emailaddress" value={user.emailadress} />
+                    <input type="text" className="Form-control" name="emailaddress" value={user.emailaddress} onChange={this.handleChange}/>
                 </div>
                 <div>
                     <label htmlfor="Confirm-email-adress">Confirm Email Adress</label>
-                    <input type="text" className="Form-control" name="confirmemailaddress" value={user.confirmemailaddress} />
+                    <input type="text" className="Form-control" name="confirmemailaddress" value={user.confirmemailaddress} onChange={this.handleChange}/>
                 </div>
                 </div>
             </form>
