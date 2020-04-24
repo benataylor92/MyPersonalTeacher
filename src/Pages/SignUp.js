@@ -52,6 +52,10 @@ constructor(props) {
                     <label htmlfor="Confirm-email-adress">Confirm Email Adress</label>
                     <input type="text" className="Form-control" name="confirmemailaddress" value={user.confirmemailaddress} onChange={this.handleChange}/>
                 </div>
+                <div>
+                    <button className="Form-button">Register</button>
+                    <a className="Cancel-button" href="/homePage">Cancel</a>
+                </div>
                 </div>
             </form>
         </div>

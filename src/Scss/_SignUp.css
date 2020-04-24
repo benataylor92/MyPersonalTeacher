@@ -33,3 +33,39 @@
     margin-bottom: 10px;
     border-radius: 5px;
 }
+
+.Form-button {
+    display: inline-block;
+    color: white;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #337ab7;
+    border-color: #0e3354;
+    padding: 6px 12px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.Form-button:hover {
+    color: #337ab7;
+    color: white;
+}
+
+.Cancel-button {
+    display: inline-block;
+    color: #337ab7;
+    padding: 6px 12px;
+    font-size: 14px;
+    margin-bottom: 0;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Cancel-button:hover {
+    text-decoration: underline;
+}
