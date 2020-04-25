@@ -10,6 +10,8 @@ export default class Header extends React.Component{
       window.location.href="/homePage";
     }
 
+    // Test
+
     return (
     <div className="Header-Bar">
     <img src={Logo} alt="Website-Logo" className="Website-Logo" onClick={() => logoImageClick()} />
