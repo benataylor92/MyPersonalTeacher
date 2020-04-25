@@ -9,6 +9,7 @@ import BoxesPage from '../Pages/BoxesPage'
 import AboutPage from '../Pages/AboutPage'
 import ContactPage from '../Pages/ContactPage'
 import SignUp from '../Pages/SignUp'
+import LoginPage from '../Pages/LoginPage';
 
 export default function Routes() {
     return (
@@ -18,6 +19,7 @@ export default function Routes() {
             <Route path="/boxesPage" exact component={BoxesPage} />
             <Route path="/aboutPage" exact component={AboutPage} />
             <Route path="/contactPage" exact component={ContactPage} />
+            <Route path="/loginPage" exact component={LoginPage} />
             <Route path="/signUp" exact component={SignUp} />
 
             <Route component={HomePage} />
