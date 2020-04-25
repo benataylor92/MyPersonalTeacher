@@ -64,7 +64,7 @@ constructor(props) {
                 </div>
                 <div>
                     <button className="Form-button">Register</button>
-                    <a className="Cancel-button" href="/homePage">Cancel</a>
+                    <a className="Cancel-button" href="/loginPage">Cancel</a>
                 </div>
                 </div>
             </form>
