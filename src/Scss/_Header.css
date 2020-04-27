@@ -22,6 +22,10 @@
   margin-bottom: auto
 }
 
+.my-custom-icon-class:before {
+  content: "\e015"; /* Adds a glyph using the Unicode character number */
+}
+
 .KS1-Button {
   text-decoration: none;
   color: black;
