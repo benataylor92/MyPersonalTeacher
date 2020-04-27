@@ -13,12 +13,15 @@ export default class Header extends React.Component{
     return (
     <div className="Header-Bar">
     <img src={Logo} alt="Website-Logo" className="Website-Logo" onClick={() => logoImageClick()} />
-    <Link to="/orderPage" className="Order-Button">Order</Link>
-    <Link to="/boxesPage" className="Boxes-Button">Our Boxes</Link>
-    <Link to="/aboutPage" className="About-Button">About</Link>
-    <Link to="/contactPage" className="Contact-Button">Contact</Link>
-    <Link to="/loginPage" className="Login-Button">Login</Link> 
-    <Link to="/signup" className="Sign-up">Sign Up</Link>
+    <div className="Header-links">
+      <Link to="/KS1" className="KS1-Button">Key Stage 1</Link>
+      <Link to="/KS2" className="KS2-Button">Key Stage 2</Link>
+      <Link to="/KS3" className="KS3-Button">Key Stage 3</Link>
+      <Link to="/KS4" className="KS4-Button">Key Stage 4</Link>
+      <Link to="/KS5" className="KS5-Button">Key Stage 5</Link>
+      <Link to="/loginPage" className="Login-Button">Login</Link> 
+      <Link to="/signup" className="Sign-up">Sign Up</Link>
+      </div>
   </div>
     )
   }

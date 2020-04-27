@@ -13,55 +13,61 @@
   cursor: pointer;
 }
 
-.Order-Button {
+.Header-links {
   text-align: center;
-  margin-left: 30%;
+  margin-left: 20%;
   font-size: 25px;
   text-decoration: none;
   color: black;
   margin-bottom: auto
 }
 
-.Order-Button:hover {
+.KS1-Button {
+  text-decoration: none;
+  color: black;
+}
+
+.KS1-Button:hover {
   text-decoration: underline;
 }
 
-.Boxes-Button {
-  text-align: center;
-  margin-left: 30px;
-  font-size: 25px;
+.KS2-Button {
+  padding-left: 25px;
   text-decoration: none;
   color: black;
-  margin-bottom: auto
 }
 
-.Boxes-Button:hover {
+.KS2-Button:hover {
   text-decoration: underline;
 }
 
-.About-Button {
-  text-align: center;
-  margin-left: 30px;
-  font-size: 25px;
+.KS3-Button {
+  padding-left: 25px;
   text-decoration: none;
   color: black;
-  margin-bottom: auto
 }
 
-.About-Button:hover {
+.KS3-Button:hover {
   text-decoration: underline;
 }
 
-.Contact-Button {
-  text-align: center;
-  margin-left: 30px;
-  font-size: 25px;
+.KS4-Button {
+  padding-left: 25px;
   text-decoration: none;
   color: black;
-  margin-bottom: auto
 }
 
-.Contact-Button:hover {
+.KS4-Button:hover {
+  text-decoration: underline;
+}
+
+.KS5-Button {
+  padding-left: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+.KS5-Button:hover {
   text-decoration: underline;
 }
 
