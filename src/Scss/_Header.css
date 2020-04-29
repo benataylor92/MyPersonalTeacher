@@ -22,8 +22,15 @@
   margin-bottom: auto
 }
 
-.my-custom-icon-class:before {
-  content: "\e015"; /* Adds a glyph using the Unicode character number */
+.fa-chevron-up {
+  font-size: small;
+  padding: 0 0 5px 5px;
+}
+
+.fa-chevron-up:hover {
+  rotate: 180;
+  font-size: small;
+  padding: 0 0 5px 5px;
 }
 
 .KS1-Button {
