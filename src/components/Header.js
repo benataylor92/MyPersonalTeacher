@@ -17,7 +17,8 @@ export default class Header extends React.Component{
     return (
     <div className="Header-Bar">
     <img src={Logo} alt="Website-Logo" className="Website-Logo" onClick={() => logoImageClick()} />
-    <HeaderBanner />
+    <SearchBar />
+    {/* <HeaderBanner /> */}
   </div>
     )
   }
