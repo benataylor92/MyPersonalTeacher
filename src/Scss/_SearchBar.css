@@ -1,4 +1,4 @@
-.SearchBar {
+/* .SearchBar {
     text-align: center;
     padding-top: 1em;
     width: 520px;
@@ -21,3 +21,49 @@
 .SearchBar-Input::placeholder {
     font-size: 18px;
 }
+
+.SearchBar .SearchBar-Input button {
+    float: initial;
+} */
+
+.SearchBar {
+    padding-top: 1em;
+    width: 100%;
+  }
+  
+  
+  .search-container {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .SearchBar input[type=text] {
+    padding: 6px 12px;
+    font-size: 17px;
+    width: 520px;
+    border: 1px solid grey;
+    line-height: 1.5;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-left: -87px;
+  }
+  
+  .SearchBar .search-container button {
+    padding: 6px 10px 8px;
+    margin-right: 16px;
+    border: 1px solid grey;
+    line-height: 1.5;
+    border-radius: 5px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .SearchBar .search-container button:hover {
+    background: #ccc;
+  }
+
+  .svg-inline--fa {
+      vertical-align: -0.250em;
+  }
