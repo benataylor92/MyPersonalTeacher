@@ -1,34 +1,7 @@
-/* .SearchBar {
-    text-align: center;
-    padding-top: 1em;
-    width: 520px;
-    margin: 0 auto;
-}
-
-.SearchBar-Input {
-    width: 150%;
-    display: block;
-    height: 34px;
-    padding: 6px 12px;
-    line-height: 1.5;
-    color: black;
-    border: 1px solid grey;
-    border-radius: 5px;
-    margin-left: -200px;
-    font-size: 18px;
-}
-
-.SearchBar-Input::placeholder {
-    font-size: 18px;
-}
-
-.SearchBar .SearchBar-Input button {
-    float: initial;
-} */
-
 .SearchBar {
     padding-top: 1em;
     width: 100%;
+    height: 42px;
   }
   
   

@@ -2,7 +2,9 @@
     font-size: 25px;
     text-decoration: none;
     color: black;
-    padding-top: 16px;
+    width: 100%;
+    text-align: center;
+    margin-top: 8px;
   }
   
   .chevron-up {
