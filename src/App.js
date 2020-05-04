@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="Page">
       <Header />
-      <HeaderBanner />
+      {/* <HeaderBanner /> */}
       <Routes />
       <Footer />
       </div>
