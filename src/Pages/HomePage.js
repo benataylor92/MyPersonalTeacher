@@ -65,6 +65,9 @@ export default function HomePage() {
                         </div>
                     </div>         
                 </div>
+                <div className="QuickClickMaterial">Quick Click Material
+
+                </div>
             </div>
           );
       }
