@@ -27,22 +27,44 @@ export default function HomePage() {
           return (
             <div className="slide-container">
               <Slide {...properties}>
-                <div className="each-slide">
-                  <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
-                    <span>Slide 1</span>
+                <div className="each-slide1">
+                    <div ><span>Hello1</span>
+                  {/* <div style={{'backgroundImage': `url(${slideImages[0]})`}}> */}
                   </div>
                 </div>
-                <div className="each-slide">
-                  <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
-                    <span>Slide 2</span>
-                  </div>
+                <div className="each-slide2">
+                    <div>
+                  {/* <div style={{'backgroundImage': `url(${slideImages[1]})`}}> */}
+                  </div><span>Hello2</span>
                 </div>
-                <div className="each-slide">
-                  <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
-                    <span>Slide 3</span>
-                  </div>
+                <div className="each-slide3">
+                    <div>
+                  {/* <div style={{'backgroundImage': `url(${slideImages[2]})`}}> */}
+                  </div><span>Hello3</span>
                 </div>
               </Slide>
+              <div className="How-MPT-HomePageBanner">
+                    <div className="How-MPT-HomePageBanner-Container">
+                        <div className="SubscriptionText">
+                            <b>Subscribe to watch 1000's of</b>
+                                <div className="SubscriptionText-SubText">
+                                    <b>online Maths, English and Science</b>
+                                </div>
+                        </div>
+                        <div className="ExpertTeachers">
+                            <b>Expert Teachers</b>
+                                <div className="ExpertTeachers-SubText">
+                                    <b>From the best schools across the country</b>
+                                </div>
+                        </div>
+                        <div className="Availability">
+                            <b>Available to stream and download</b>
+                                <div className="Availability-SubText">
+                                    <b>on the web, app and offline</b>
+                                </div>
+                        </div>
+                    </div>         
+                </div>
             </div>
           );
       }
