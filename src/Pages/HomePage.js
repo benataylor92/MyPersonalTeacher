@@ -65,8 +65,13 @@ export default function HomePage() {
                         </div>
                     </div>         
                 </div>
-                <div className="QuickClickMaterial">Quick Click Material
-
+                <div className="QuickClickMaterial">
+                    <div className="QuickClickMaterial-Box">Test
+                        <div className="QuickClickMaterial-Box-SideBar">The UK's largest online teaching resource
+                            <div className="QuickClickMaterial-Box-SideBar-Text">Choose from over 30 minutes of online courses with new additions published every week
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
           );
