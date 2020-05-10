@@ -1,7 +1,7 @@
 .slide-container {
     width: 100%;
     margin: auto;
-    margin-top: 5em;
+    margin-top: 3em;
     height: 536px;
 }
   
@@ -92,4 +92,13 @@
 .QuickClickMaterial-Box-SideBar-Text {
     font-weight: normal;
     margin-top: 8px;
+}
+
+.QuickClickMaterial-Box-TopFiler {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    height: 25px;
+    width: 64%;
+    margin-top: 15px;
+    margin-left: 25px;
 }

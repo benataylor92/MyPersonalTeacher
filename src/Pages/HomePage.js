@@ -71,6 +71,8 @@ export default function HomePage() {
                             <div className="QuickClickMaterial-Box-SideBar-Text">Choose from over 30 minutes of online courses with new additions published every week
                             </div>
                         </div>
+                        <div className="QuickClickMaterial-Box-TopFiler"> Top Filter
+                        </div>
                     </div>
                 </div>
             </div>
