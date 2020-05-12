@@ -76,6 +76,7 @@
     margin-right: 90px;
     height: 400px;
     background-color: lightseagreen;
+    padding-left: 30px;
 }
 
 .QuickClickMaterial-Box-SideBar {
@@ -101,4 +102,21 @@
     width: 64%;
     margin-top: 15px;
     margin-left: 25px;
+}
+
+.KSButtons {
+    width: 100%;
+    display: flex;
+}
+
+.KSButtons button {
+    width: 20.5%;
+    margin-left: 80px;
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    outline: none;
+    font: inherit;
+    color: inherit;
+    background: none
 }
