@@ -18,8 +18,6 @@ export default class HeaderBanner extends React.Component {
                 <FontAwesomeIcon className="chevron-up" icon={faChevronUp} />
                 <Link to="/KS5" className="KS5-Button">Key Stage 5</Link>
                 <FontAwesomeIcon className="chevron-up" icon={faChevronUp} />
-                <Link to="/loginPage" className="Login-Button">Login</Link> 
-                <Link to="/signup" className="Sign-up">Sign Up</Link>
             </div>
         )
     }

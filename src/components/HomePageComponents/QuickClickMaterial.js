@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import '../../Scss/_QuickClickMaterial.css';
 
 export default function QuickClickMaterial() {
+
+    function handleClick(e) {
+        alert('Hello');
+    }
+
     return (
     <div className="QuickClickMaterial">
                     <div className="QuickClickMaterial-Box">
@@ -12,7 +17,7 @@ export default function QuickClickMaterial() {
                         </div>
                         <div className="QuickClickMaterial-Box-TopFiler">
                           <div className="KSButtons">
-                          <button className="KS1Button">Key-Stage 1</button>
+                          <button onClick={handleClick} className="KS1Button">Key-Stage 1</button>
                           <button className="KS2Button">Key-Stage 2</button>
                           <button className="KS3Button">Key-Stage 3</button>
                           <button className="KS4Button">Key-Stage 4</button>

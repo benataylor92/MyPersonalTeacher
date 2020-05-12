@@ -40,3 +40,27 @@
   .svg-inline--fa {
       vertical-align: -0.250em;
   }
+
+  .Sign-up {
+    position: absolute;
+    text-decoration: none;
+    right: 25px;
+    font-size: 25px;
+    color: black;
+  }
+  
+  .Sign-up:hover {
+    text-decoration: underline;
+  }
+  
+  .Login-Button {
+    position: absolute;
+    text-decoration: none;
+    right: 150px;
+    font-size: 25px;
+    color: black;
+  }
+  
+  .Login-Button:hover {
+    text-decoration: underline;
+  }
