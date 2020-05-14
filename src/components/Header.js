@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import '../Scss/_Header.css'
 import Logo from './Logo.png';
 import SearchBar from './SearchBar';

@@ -1,8 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom'
 
-import Header from '../components/Header';
-
 import HomePage from '../Pages/HomePage'
 import KS1 from '../Pages/KS1'
 import KS2 from '../Pages/KS2'

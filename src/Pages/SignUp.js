@@ -1,6 +1,5 @@
-import React, { useReducer } from 'react';
+import React from 'react';
 import '../Scss/_SignUp.css';
-import { render } from '@testing-library/react';
 
 export default class SignUp extends React.Component {
 constructor(props) {

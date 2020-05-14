@@ -1,17 +1,17 @@
 import React from 'react';
 import '../Scss/_HomePage.css';
 import { Slide } from 'react-slideshow-image';
-import Picture1 from '../Images/Picture1.PNG';
-import Picture2 from '../Images/Picture2.PNG';
-import Picture3 from '../Images/Picture3.PNG'
+// import Picture1 from '../Images/Picture1.PNG';
+// import Picture2 from '../Images/Picture2.PNG';
+// import Picture3 from '../Images/Picture3.PNG'
 import QuickClickMaterial from '../components/HomePageComponents/QuickClickMaterial';
 
 export default function HomePage() {
-    const slideImages = [
-        Picture1,
-        Picture2,
-        Picture3
-      ];
+    // const slideImages = [
+    //     Picture1,
+    //     Picture2,
+    //     Picture3
+    //   ];
 
       const properties = {
         duration: 5000,

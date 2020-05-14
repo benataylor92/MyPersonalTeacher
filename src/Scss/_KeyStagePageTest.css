@@ -1,0 +1,40 @@
+.KeyStageTestBanner {
+    margin-top: 3em;
+    background-color: lightgray;
+    width: 100%;
+    height: 450px;
+    padding-top: 25px
+}
+
+.KeyStageTestBanner-Box {
+    display: flex;
+    margin-left: 90px;
+    margin-right: 90px;
+    height: 400px;
+    background-color: lightgreen;
+    padding-left: 30px;
+}
+
+.KeyStageTestBanner-Box-SideBar {
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 32px;
+    margin: 15px 15px 15px 0;
+    background-color: lightpink;
+    width: 350px;
+}
+
+.KeyStageTestBanner-Box-SideBar-Text {
+    font-weight: normal;
+    margin-top: 8px;
+}
+
+
+.KeyStageTestBanner-RightBox {
+    display: flex;
+    background-color: lightpink;
+    width: 64%;
+    margin: 15px 15px 15px 0;
+}

@@ -1,10 +1,9 @@
 import React from 'react';
-import '../Scss/_AboutPage.css';
+import '../Scss/_KS3Page.css';
+import KeyStagePageTest from '../components/KeyStagePageComponents/KeyStageTestBox';
 
 export default function KS3() {
     return (
-        <div className="Test">
-            <button className="Test3">Test About Page</button>
-        </div>
+        <KeyStagePageTest />
     );    
 }

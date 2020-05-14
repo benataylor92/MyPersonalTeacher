@@ -1,10 +1,9 @@
 import React from 'react';
-import '../Scss/_ContactPage.css';
+import '../Scss/_KS5Page.css';
+import KeyStagePageTest from '../components/KeyStagePageComponents/KeyStageTestBox';
 
 export default function KS5() {
     return (
-        <div className="Test" >
-            <button className="Test4">Test Contact Page</button>
-        </div>
+        <KeyStagePageTest />
     );    
 }
