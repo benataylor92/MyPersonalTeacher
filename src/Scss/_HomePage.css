@@ -15,7 +15,7 @@
     justify-content: center;
     background-size: cover;
     height: 536px;
-    background-color: grey;
+    background-color: #8B0000;
   }
 
   .each-slide2 {
@@ -24,7 +24,7 @@
     justify-content: center;
     background-size: cover;
     height: 536px;
-    background-color: darkgoldenrod;
+    background-color: #483D8B;
   }
 
   .each-slide3 {

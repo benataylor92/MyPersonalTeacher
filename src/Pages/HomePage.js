@@ -29,19 +29,19 @@ export default function HomePage() {
             <div className="slide-container">
               <Slide {...properties}>
                 <div className="each-slide1">
-                    <div ><span>Hello1</span>
+                    <div ><span>Maths</span>
                   {/* <div style={{'backgroundImage': `url(${slideImages[0]})`}}> */}
                   </div>
                 </div>
                 <div className="each-slide2">
                     <div>
                   {/* <div style={{'backgroundImage': `url(${slideImages[1]})`}}> */}
-                  </div><span>Hello2</span>
+                  </div><span>English</span>
                 </div>
                 <div className="each-slide3">
                     <div>
                   {/* <div style={{'backgroundImage': `url(${slideImages[2]})`}}> */}
-                  </div><span>Hello3</span>
+                  </div><span>Science</span>
                 </div>
               </Slide>
               <div className="How-MPT-HomePageBanner">
