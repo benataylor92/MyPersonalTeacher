@@ -19,11 +19,11 @@
     display: flex;
     font-weight: bold;
     flex-direction: column;
-    justify-content: center;
     padding: 0 32px;
     margin: 15px 15px 15px 0;
     background-color: lightpink;
-    width: 350px;
+    width: 20%;
+    padding-top: 25px;
 }
 
 .KeyStageTestBanner-Box-SideBar-Text {
@@ -35,6 +35,6 @@
 .KeyStageTestBanner-RightBox {
     display: flex;
     background-color: lightpink;
-    width: 64%;
+    width: 72%;
     margin: 15px 15px 15px 0;
 }

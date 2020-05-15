@@ -2,14 +2,15 @@ import React from 'react';
 import '../../Scss/_KeyStagePageTest.css'
 import PropTypes from "prop-types";
 
-export default function KeyStagePageTest({ words }) {
+export default function KeyStagePageTest({ keystageTitle, titleDescription }) {
 
     return (
         <div className="KeyStageTestBanner">
                     <div className="KeyStageTestBanner-Box">
                         <div className="KeyStageTestBanner-Box-SideBar">
-                                <div>{words}</div> 
+                                <div>{keystageTitle}</div> 
                             <div className="KeyStageTestBanner-Box-SideBar-Text">
+                                <div>{titleDescription}</div>
                             </div>
                         </div>
                         <div className="KeyStageTestBanner-RightBox">

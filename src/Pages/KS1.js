@@ -4,9 +4,10 @@ import KeyStagePageTest from '../components/KeyStagePageComponents/KeyStageTestB
 
 export default function KS1() {
 
-    const words = "hello"; 
+    const keystageTitle = "Key Stage 1 - Maths";
+    const titleDescription = "Take our online Key Stage 1 Maths test to track your progress over time";
 
     return (
-        <KeyStagePageTest words={words}/>
+        <KeyStagePageTest keystageTitle={keystageTitle} titleDescription={titleDescription}/>
     );    
 }

@@ -4,9 +4,9 @@ import KeyStagePageTest from '../components/KeyStagePageComponents/KeyStageTestB
 
 export default function KS2() {
 
-    const words = "Hello2"
+    const keystageTitle = "Key Stage 2 - Maths"
 
     return (
-        <KeyStagePageTest words={words}/>
+        <KeyStagePageTest keystageTitle={keystageTitle}/>
     );    
 }
