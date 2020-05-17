@@ -8,8 +8,8 @@
 
 .KeyStageTestBanner-Box {
     display: flex;
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: 3%;
+    margin-right: 3%;
     height: 400px;
     background-color: lightgreen;
     padding-left: 30px;
@@ -20,7 +20,7 @@
     font-weight: bold;
     flex-direction: column;
     padding: 0 32px;
-    margin: 15px 15px 15px 0;
+    margin: 15px 25px 15px 0;
     background-color: lightpink;
     width: 20%;
     padding-top: 25px;

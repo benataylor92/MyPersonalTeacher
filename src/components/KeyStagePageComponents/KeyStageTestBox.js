@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../Scss/_KeyStagePageTest.css'
-import PropTypes from "prop-types";
 
 export default function KeyStagePageTest({ keystageTitle, titleDescription }) {
 
